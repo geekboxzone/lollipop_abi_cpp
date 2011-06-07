@@ -20,6 +20,8 @@ libgabi++_common_src_files := \
 
 include $(CLEAR_VARS)
 
+LOCAL_MODULE_TAGS := optional
+
 LOCAL_CPP_EXTENSION := .cc
 
 LOCAL_SRC_FILES:= $(libgabi++_common_src_files)
@@ -35,6 +37,8 @@ LOCAL_SYSTEM_SHARED_LIBRARIES := libc
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
+
+LOCAL_MODULE_TAGS := optional
 
 LOCAL_CPP_EXTENSION := .cc
 
